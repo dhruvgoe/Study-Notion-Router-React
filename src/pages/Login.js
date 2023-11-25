@@ -1,8 +1,8 @@
-import React from 'react'
-import Template from '../components/Template'
-import loginImg from "../assets/login.png"
+import React from "react";
+import Template from "../components/Template";
+import loginImg from "../assets/login.png";
 
-const Login = ({setIsLoggedIn}) => {
+const Login = ({ setIsLoggedIn }) => {
   return (
     <Template
       title="Welcome Back"
@@ -12,7 +12,7 @@ const Login = ({setIsLoggedIn}) => {
       formtype="login"
       setIsLoggedIn={setIsLoggedIn}
     />
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
